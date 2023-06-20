@@ -8,5 +8,7 @@ class Solution {
         int len = 0;
         if(i==j) { len=1; i--; j++;}        
         while(i>=0 && j<s.length() && s.charAt(i) == s.charAt(j)) { len+=2; i--; j++;}
-        if(len>maxLen) { position=i+1; maxLen = len;}}}
+        if(len>maxLen) { position=i+1; maxLen = len;}}
+}
+
 

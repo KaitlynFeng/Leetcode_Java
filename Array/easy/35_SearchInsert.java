@@ -1,6 +1,6 @@
 class Solution {
     public int searchInsert(int[] nums, int target) {
-        int mid = 0;
+        int mid = 0; //the edge case
         int left = 0;
         int right = nums.length - 1;
         while (left <= right) {
